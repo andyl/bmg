@@ -1,8 +1,8 @@
 # BMG Worklog
 
-## 2018-Mar-20 WED
+## 2018-Mar-20 TUE
 
-### Webpack4 and Phoenix
+Webpack4 and Phoenix
 
 Notes:
 - Webpack4 has a no-config mode
@@ -26,9 +26,18 @@ Links:
 [link6]: https://gist.github.com/eproxus/545618f91983ff302a0a734888e7d01c 
 [link7]: https://gist.github.com/mbenatti/4866eaa5c424f66042e19cc055b21f83
 
+## 2018-Mar-21 WED
 
+Bootstrap4
 
+Notes:
+- Use CDN for base packages
+- Try Webpack intetgration after Phoenix 1.4
 
+Links:
 
+- [BootstrapCDN][21_1]
+
+[20_1]: http://getbootstrap.com/docs/4.0/getting-started/download/#bootstrapcdn
 
 

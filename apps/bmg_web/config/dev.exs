@@ -37,7 +37,7 @@ config :bmg_web, BmgWeb.Endpoint,
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
       ~r{lib/bmg_web/views/.*(ex)$},
-      ~r{lib/bmg_web/templates/.*(eex)$}
+      ~r{lib/bmg_web/templates/.*(eex|slim)$}
     ]
   ]
 

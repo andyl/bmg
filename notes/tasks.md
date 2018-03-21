@@ -2,9 +2,10 @@
 
 ## 2018-Mar-20 WED
 
-- [ ] add Bootstrap4 into Brunch
+- [x] add Bootstrap4 via CDN
 
 - [ ] add dependencies
+- [ ] get deploy working
 
 - [ ] GH: add README-badge route
 - [ ] GH: add COMMENT-badge route
@@ -15,5 +16,6 @@
 
 # TBD
 
+- [ ] add Bootstrap4 into Brunch
 - [ ] add Webpack4 (after Phoenix 1.4)
 - [ ] Add TMUX script for dev session
