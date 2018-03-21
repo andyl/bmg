@@ -1,0 +1,10 @@
+{application,bmg,
+             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
+                             postgrex,ecto]},
+              {description,"bmg"},
+              {modules,['Elixir.Bmg','Elixir.Bmg.Application',
+                        'Elixir.Bmg.DataCase','Elixir.Bmg.Repo']},
+              {registered,[]},
+              {vsn,"0.0.1"},
+              {mod,{'Elixir.Bmg.Application',[]}},
+              {extra_applications,[logger,runtime_tools]}]}.

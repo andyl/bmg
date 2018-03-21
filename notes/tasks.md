@@ -2,8 +2,7 @@
 
 ## 2018-Mar-20 WED
 
-- [ ] add Webpack4
-- [ ] add Bootstrap4
+- [ ] add Bootstrap4 into Brunch
 
 - [ ] add dependencies
 
@@ -16,4 +15,5 @@
 
 # TBD
 
+- [ ] add Webpack4 (after Phoenix 1.4)
 - [ ] Add TMUX script for dev session
