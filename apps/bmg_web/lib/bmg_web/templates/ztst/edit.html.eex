@@ -1,0 +1,5 @@
+<h2>Edit Ztst</h2>
+
+<%= render "form.html", Map.put(assigns, :action, ztst_path(@conn, :update, @ztst)) %>
+
+<span><%= link "Back", to: ztst_path(@conn, :index) %></span>

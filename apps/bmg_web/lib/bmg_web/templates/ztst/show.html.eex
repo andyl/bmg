@@ -1,0 +1,13 @@
+<h2>Show Ztst</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @ztst.name %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: ztst_path(@conn, :edit, @ztst) %></span>
+<span><%= link "Back", to: ztst_path(@conn, :index) %></span>
