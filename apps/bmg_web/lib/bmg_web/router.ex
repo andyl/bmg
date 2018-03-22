@@ -14,12 +14,17 @@ defmodule BmgWeb.Router do
   end
 
   scope "/", BmgWeb do
-    pipe_through :browser # Use the default browser stack
+    pipe_through :browser 
 
     get "/", PageController, :index
   end
 
-  # Other scopes may use custom stacks.
+  scope "/ztst", BmgWeb do
+    pipe_through :browser
+
+    get "/test1", ZtstController, :test1
+  end
+
   # scope "/api", BmgWeb do
   #   pipe_through :api
   # end
