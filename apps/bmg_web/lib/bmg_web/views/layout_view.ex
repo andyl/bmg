@@ -38,4 +38,18 @@ defmodule BmgWeb.LayoutView do
     """
     |> raw
   end
+
+  @doc """
+  Shows controller, view and template - for debugging in dev
+  """
+  def footer_info(conn) do
+    controller = conn.private.phoenix_controller
+    view       = conn.private.phoenix_view
+    template   = conn.private.phoenix_template
+    [controller, view, template]
+    |> Enum.map(&(to_string(&1)))
+    |> Enum.map(&(String.replace(&1, "Elixir.", "")))
+    |> Enum.map(&(String.replace(&1, "BmgWeb.", "")))
+    |> Enum.join(" | ")
+  end
 end

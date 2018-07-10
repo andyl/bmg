@@ -4,11 +4,13 @@
 
 - [x] add Bootstrap4 via CDN
 - [x] VSCODE: alt-color row numbers
+- [x] add slim dependency
 
-- [ ] add slim dependency
+## 2018-Mar-21 THU
 
-- [ ] make menu structure
-- [ ] add footer with page diagram
+- [x] make menu structure
+- [x] add footer with page info
+- [x] test to render FontAwesome
 
 - [ ] get deploy working
 
